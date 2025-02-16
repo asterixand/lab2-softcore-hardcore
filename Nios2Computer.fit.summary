@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Feb 15 11:00:49 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 Patches 1.01std SJ Lite Edition
+Revision Name : Nios2Computer
+Top-level Entity Name : Nios2Computer
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 3,429 / 22,320 ( 15 % )
+    Total combinational functions : 3,029 / 22,320 ( 14 % )
+    Dedicated logic registers : 2,055 / 22,320 ( 9 % )
+Total registers : 2055
+Total pins : 10 / 154 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 210,048 / 608,256 ( 35 % )
+Embedded Multiplier 9-bit elements : 6 / 132 ( 5 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,245 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\FPGALabGroupName\Nios2Computer\Nios2Computer.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\FPGALabGroupName\Nios2Computer\Nios2Computer\simulation --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading Nios2Computer/Nios2Computer.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 20.1]
+Progress: Parameterizing module led_pio
+Progress: Adding nios2_cpu [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sys_clk_timer [altera_avalon_timer 20.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 20.1]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios2Computer.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Nios2Computer.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: Nios2Computer.sysid: Time stamp will be automatically updated when this component is generated.
+Info: Nios2Computer: Generating Nios2Computer "Nios2Computer" for SIM_VERILOG
+Info: jtag_uart: Starting RTL generation for module 'Nios2Computer_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Nios2Computer_jtag_uart --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0002_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0002_jtag_uart_gen//Nios2Computer_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0002_jtag_uart_gen/  ]
+Info: jtag_uart: Done RTL generation for module 'Nios2Computer_jtag_uart'
+Info: jtag_uart: "Nios2Computer" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led_pio: Starting RTL generation for module 'Nios2Computer_led_pio'
+Info: led_pio:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Nios2Computer_led_pio --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0003_led_pio_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0003_led_pio_gen//Nios2Computer_led_pio_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0003_led_pio_gen/  ]
+Info: led_pio: Done RTL generation for module 'Nios2Computer_led_pio'
+Info: led_pio: "Nios2Computer" instantiated altera_avalon_pio "led_pio"
+Info: nios2_cpu: "Nios2Computer" instantiated altera_nios2_gen2 "nios2_cpu"
+Info: onchip_mem: Starting RTL generation for module 'Nios2Computer_onchip_mem'
+Info: onchip_mem:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Nios2Computer_onchip_mem --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0004_onchip_mem_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0004_onchip_mem_gen//Nios2Computer_onchip_mem_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0004_onchip_mem_gen/  ]
+Info: onchip_mem: Done RTL generation for module 'Nios2Computer_onchip_mem'
+Info: onchip_mem: "Nios2Computer" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info: sys_clk_timer: Starting RTL generation for module 'Nios2Computer_sys_clk_timer'
+Info: sys_clk_timer:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=Nios2Computer_sys_clk_timer --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0005_sys_clk_timer_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0005_sys_clk_timer_gen//Nios2Computer_sys_clk_timer_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0005_sys_clk_timer_gen/  ]
+Info: sys_clk_timer: Done RTL generation for module 'Nios2Computer_sys_clk_timer'
+Info: sys_clk_timer: "Nios2Computer" instantiated altera_avalon_timer "sys_clk_timer"
+Info: sysid: "Nios2Computer" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Nios2Computer" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Nios2Computer" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Nios2Computer" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'Nios2Computer_nios2_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=Nios2Computer_nios2_cpu_cpu --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0009_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/20.1/quartus/bin64/ --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0009_cpu_gen//Nios2Computer_nios2_cpu_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0009_cpu_gen/  ]
+Info: cpu: # 2025.02.11 19:45:26 (*) Starting Nios II generation
+Info: cpu: # 2025.02.11 19:45:26 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2025.02.11 19:45:26 (*)   Creating all objects for CPU
+Info: cpu: # 2025.02.11 19:45:26 (*)     Testbench
+Info: cpu: # 2025.02.11 19:45:26 (*)     Instruction decoding
+Info: cpu: # 2025.02.11 19:45:26 (*)       Instruction fields
+Info: cpu: # 2025.02.11 19:45:26 (*)       Instruction decodes
+Info: cpu: # 2025.02.11 19:45:27 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2025.02.11 19:45:27 (*)       Instruction controls
+Info: cpu: # 2025.02.11 19:45:27 (*)     Pipeline frontend
+Info: cpu: # 2025.02.11 19:45:27 (*)     Pipeline backend
+Info: cpu: # 2025.02.11 19:45:31 (*)   Creating 'C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0009_cpu_gen//Nios2Computer_nios2_cpu_cpu_nios2_waves.do'
+Info: cpu: # 2025.02.11 19:45:31 (*)   Generating RTL from CPU objects
+Info: cpu: # 2025.02.11 19:45:31 (*)   Creating plain-text RTL
+Info: cpu: # 2025.02.11 19:45:33 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'Nios2Computer_nios2_cpu_cpu'
+Info: cpu: "nios2_cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios2_cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: nios2_cpu_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_cpu_data_master_limiter"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: Nios2Computer: Done "Nios2Computer" with 31 modules, 65 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\FPGALabGroupName\Nios2Computer\Nios2Computer\Nios2Computer.spd --output-directory=C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\FPGALabGroupName\Nios2Computer\Nios2Computer\Nios2Computer.spd --output-directory=C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	30 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/FPGALabGroupName/Nios2Computer/Nios2Computer/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\FPGALabGroupName\Nios2Computer\Nios2Computer.qsys --block-symbol-file --output-directory=C:\FPGALabGroupName\Nios2Computer\Nios2Computer --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading Nios2Computer/Nios2Computer.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 20.1]
+Progress: Parameterizing module led_pio
+Progress: Adding nios2_cpu [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sys_clk_timer [altera_avalon_timer 20.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 20.1]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios2Computer.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Nios2Computer.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: Nios2Computer.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\FPGALabGroupName\Nios2Computer\Nios2Computer.qsys --synthesis=VERILOG --output-directory=C:\FPGALabGroupName\Nios2Computer\Nios2Computer\synthesis --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading Nios2Computer/Nios2Computer.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 20.1]
+Progress: Parameterizing module led_pio
+Progress: Adding nios2_cpu [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sys_clk_timer [altera_avalon_timer 20.1]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 20.1]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios2Computer.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Nios2Computer.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: Nios2Computer.sysid: Time stamp will be automatically updated when this component is generated.
+Info: Nios2Computer: Generating Nios2Computer "Nios2Computer" for QUARTUS_SYNTH
+Info: jtag_uart: Starting RTL generation for module 'Nios2Computer_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Nios2Computer_jtag_uart --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0030_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0030_jtag_uart_gen//Nios2Computer_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'Nios2Computer_jtag_uart'
+Info: jtag_uart: "Nios2Computer" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led_pio: Starting RTL generation for module 'Nios2Computer_led_pio'
+Info: led_pio:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Nios2Computer_led_pio --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0031_led_pio_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0031_led_pio_gen//Nios2Computer_led_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: led_pio: Done RTL generation for module 'Nios2Computer_led_pio'
+Info: led_pio: "Nios2Computer" instantiated altera_avalon_pio "led_pio"
+Info: nios2_cpu: "Nios2Computer" instantiated altera_nios2_gen2 "nios2_cpu"
+Info: onchip_mem: Starting RTL generation for module 'Nios2Computer_onchip_mem'
+Info: onchip_mem:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Nios2Computer_onchip_mem --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0032_onchip_mem_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0032_onchip_mem_gen//Nios2Computer_onchip_mem_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_mem: Done RTL generation for module 'Nios2Computer_onchip_mem'
+Info: onchip_mem: "Nios2Computer" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info: sys_clk_timer: Starting RTL generation for module 'Nios2Computer_sys_clk_timer'
+Info: sys_clk_timer:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=Nios2Computer_sys_clk_timer --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0033_sys_clk_timer_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0033_sys_clk_timer_gen//Nios2Computer_sys_clk_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: sys_clk_timer: Done RTL generation for module 'Nios2Computer_sys_clk_timer'
+Info: sys_clk_timer: "Nios2Computer" instantiated altera_avalon_timer "sys_clk_timer"
+Info: sysid: "Nios2Computer" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Nios2Computer" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Nios2Computer" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Nios2Computer" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'Nios2Computer_nios2_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=Nios2Computer_nios2_cpu_cpu --dir=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0037_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/20.1/quartus/bin64/ --verilog --config=C:/Users/User/AppData/Local/Temp/alt0131_6906356308544974484.dir/0037_cpu_gen//Nios2Computer_nios2_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2025.02.11 19:46:24 (*) Starting Nios II generation
+Info: cpu: # 2025.02.11 19:46:24 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2025.02.11 19:46:24 (*)   Creating all objects for CPU
+Info: cpu: # 2025.02.11 19:46:24 (*)     Testbench
+Info: cpu: # 2025.02.11 19:46:24 (*)     Instruction decoding
+Info: cpu: # 2025.02.11 19:46:24 (*)       Instruction fields
+Info: cpu: # 2025.02.11 19:46:24 (*)       Instruction decodes
+Info: cpu: # 2025.02.11 19:46:24 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2025.02.11 19:46:24 (*)       Instruction controls
+Info: cpu: # 2025.02.11 19:46:24 (*)     Pipeline frontend
+Info: cpu: # 2025.02.11 19:46:25 (*)     Pipeline backend
+Info: cpu: # 2025.02.11 19:46:27 (*)   Generating RTL from CPU objects
+Info: cpu: # 2025.02.11 19:46:27 (*)   Creating plain-text RTL
+Info: cpu: # 2025.02.11 19:46:29 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'Nios2Computer_nios2_cpu_cpu'
+Info: cpu: "nios2_cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios2_cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: nios2_cpu_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_cpu_data_master_limiter"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/FPGALabGroupName/Nios2Computer/Nios2Computer/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: Nios2Computer: Done "Nios2Computer" with 31 modules, 52 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
