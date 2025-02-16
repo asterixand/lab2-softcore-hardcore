@@ -1,3 +1,6 @@
 # lab2-softcore-hardcore
-![Alt text](ss1.png)
 ![Screenshot](ss1.PNG)
+![Screenshot](ss2.PNG)
+![Screenshot](ss3.PNG)
+![Screenshot](ss4.PNG)
+
